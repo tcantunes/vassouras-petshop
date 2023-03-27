@@ -37,16 +37,17 @@
       <nav class="navbar">
         <ul class="navbar-ul">
           <li class="navbar-li"><a href="./index.html">home</a></li>
-          <li class="navbar-li"><a href="">sobre</a></li>
-          <li class="navbar-li"><a href="./produtos/produtos.html">produtos</a></li>
-          <li class="navbar-li"><a href="./servicos/servicos.html">serviços</a></li>
+          <li class="navbar-li">
+            <a href="./produtos/produtos.html">produtos</a>
+          </li>
+          <li class="navbar-li">
+            <a href="./servicos/servicos.html">serviços</a>
+          </li>
           <li class="navbar-li"><a href="./adocao/adocao.html">adoção</a></li>
         </ul>
       </nav>
       <div class="botoes-navbar">
-        <img class="icons-navbar" src="./imagens/Vector.png" alt="" />
-        <img class="icons-navbar" src="./imagens/Group 12.png" alt="" />
-        <button class="botao-contato">CONTATO</button>
+        <button class="botao-contato" onclick="botaoContato()">CONTATO</button>
       </div>
     </header>
     <main class="container-principal">
@@ -69,7 +70,9 @@
             animal, priorizamos o conforto com cuidado. Serviço de entrega,
             hospedagem, banho e tosa são só alguns dos nossos trabalhos.
           </p>
-          <button class="botao-container-flutuante">SAIBA MAIS</button>
+          <button class="botao-container-flutuante" onclick="servico()">
+            SAIBA MAIS
+          </button>
         </div>
         <div>
           <img
@@ -81,7 +84,11 @@
       </div>
       <div class="container-central">
         <div class="container-central-display">
-          <img class="imagem-container-central" src="./imagens/adocao.png" alt="" />
+          <img
+            class="imagem-container-central"
+            src="./imagens/adocao.png"
+            alt=""
+          />
           <div class="paragrafo-container-central">
             <p>
               🐾Adotar a Mimi foi a melhor decisão, ela trouxe alegria para a
@@ -90,7 +97,11 @@
           </div>
         </div>
         <div class="container-central-display">
-          <img class="imagem-container-central" src="./imagens/adocao2.png" alt="" />
+          <img
+            class="imagem-container-central"
+            src="./imagens/adocao2.png"
+            alt=""
+          />
           <div class="paragrafo-container-central">
             <p>
               🐾O Max é a melhor companhia do dia a dia, meu filho de quatro
@@ -99,7 +110,11 @@
           </div>
         </div>
         <div class="container-central-display">
-          <img class="imagem-container-central" src="./imagens/adocao3.png" alt="" />
+          <img
+            class="imagem-container-central"
+            src="./imagens/adocao3.png"
+            alt=""
+          />
           <div class="paragrafo-container-central">
             <p>
               🐾O dia que eu conheci o Hercules foi o dia mais feliz da minha
@@ -128,7 +143,9 @@
               hospedamos e garantimos muita diversão e alegria enquanto você
               estiver fora.
               <br />
-              <button class="botao-servicos">Saiba mais</button>
+              <button class="botao-servicos" onclick="servico()">
+                Saiba mais
+              </button>
             </p>
             <img
               class="hospedagem-imagem"
@@ -148,7 +165,9 @@
               Veterinária, o que garante a adoção de cuidados adequados para o
               seu filhote.
               <br />
-              <button class="botao-servicos">Saiba mais</button>
+              <button class="botao-servicos" onclick="servico()">
+                Saiba mais
+              </button>
             </p>
             <img
               class="hospedagem-imagem"
@@ -160,5 +179,6 @@
       </div>
     </main>
     <footer><p>Davi Narcizo - Tainá Narcizo</p></footer>
+    <script src="./script.js"></script>
   </body>
 </html>
