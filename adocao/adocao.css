@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff4ef;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Averia Sans Libre", cursive;
+}
+
+.navbar-ul {
+  display: flex;
+}
+
+.navbar-li {
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: #cb7ca2;
+}
+
+.botoes-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-navbar {
+  width: 25px;
+  height: 24px;
+  margin: 10px;
+}
+
+.botao-contato {
+  background-color: #817a8a;
+  border: none;
+  width: 120px;
+  height: 30px;
+  margin: 0 15px 0 15px;
+  color: #fff;
+  font-family: "Overpass Mono", monospace;
+  cursor: pointer;
+}
+
+.botao-contato:hover {
+  background-color: #cdbbbb;
+}
+
+main {
+  background-color: #fff4ef;
+}
+
+.container-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-banner {
+  width: 60%;
+  height: 650px;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto-apoio {
+  text-align: center;
+  width: 75%;
+  height: 80px;
+  font-family: "Overpass Mono", monospace;
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 0 0 #817a8a83;
+  margin: 20px;
+}
+
+footer {
+  background-color: #817a8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}

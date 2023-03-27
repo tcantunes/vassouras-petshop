@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff4ef;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Averia Sans Libre", cursive;
+}
+
+.navbar-ul {
+  display: flex;
+}
+
+.navbar-li {
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: #cb7ca2;
+}
+
+.botoes-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-navbar {
+  width: 25px;
+  height: 24px;
+  margin: 10px;
+}
+
+.botao-contato {
+  background-color: #817a8a;
+  border: none;
+  width: 120px;
+  height: 30px;
+  margin: 0 15px 0 15px;
+  color: #fff;
+  font-family: "Overpass Mono", monospace;
+  cursor: pointer;
+}
+
+.botao-contato:hover {
+  background-color: #cdbbbb;
+}
+
+main {
+  background-color: #fff4ef;
+  height: 700px;
+}
+
+.barra-pesquisa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #f0d8e4;
+  border-radius: 5%;
+  margin: 20px;
+  font-family: "Overpass Mono", monospace;
+}
+
+.imagem-card {
+  width: 62%;
+  height: 50%;
+}
+
+.nome-produto {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.valor-produto {
+  margin: 10px;
+  font-weight: bold;
+  color: #cb7ca2;
+}
+
+.botao-produto {
+  background-color: #cb7ca2;
+  border: none;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  font-family: "Overpass Mono", monospace;
+  cursor: pointer;
+  font-size: 19px;
+  margin: 5px;
+}
+
+footer {
+  background-color: #817a8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-top: 20px;
+}
