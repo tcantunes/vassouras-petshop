@@ -77,15 +77,15 @@ main {
   background-color: #fff4ef;
 }
 
-.container-banner{
-    display: flex;
-    justify-content: center;
+.container-banner {
+  display: flex;
+  justify-content: center;
 }
 
 .imagem-banner {
-  width: 60%;
-  height: 650px;
-  margin-bottom: 40px;
+  width: 30%;
+  height: 550px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -94,10 +94,17 @@ main {
   align-items: center;
 }
 
+.titulo-adocao {
+  text-align: center;
+  font-family: "Averia Sans Libre", cursive;
+  font-size: 40px;
+
+}
+
 .texto-apoio {
   text-align: center;
   width: 75%;
-  height: 80px;
+  height: 290px;
   font-family: "Overpass Mono", monospace;
   font-size: 18px;
   background-color: #fff;

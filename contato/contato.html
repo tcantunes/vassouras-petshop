@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contato.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vassouras Petshop</title>
+  </head>
+  <body>
+    <header>
+      <img src="../imagens/logo.png" class="logo" />
+      <nav class="navbar">
+        <ul class="navbar-ul">
+          <li class="navbar-li"><a href="./index.html">home</a></li>
+          <li class="navbar-li"><a href="">sobre</a></li>
+          <li class="navbar-li">
+            <a href="../produtos/produtos.html">produtos</a>
+          </li>
+          <li class="navbar-li">
+            <a href="../servicos/servicos.html">serviços</a>
+          </li>
+          <li class="navbar-li"><a href="../adocao/adocao.html">adoção</a></li>
+        </ul>
+      </nav>
+      <div class="botoes-navbar">
+        <img class="icons-navbar" src="./imagens/Vector.png" alt="" />
+        <img class="icons-navbar" src="./imagens/Group 12.png" alt="" />
+        <button class="botao-contato">CONTATO</button>
+      </div>
+    </header>
+    <main>
+      <div class="container-principal">
+        <div>
+          <img
+            class="imagem-form"
+            src="../imagens/cachorrotelefone.png"
+            alt=""
+          />
+        </div>
+        <form action="">
+          <h1>Entre em contato, Aumigo!</h1>
+
+          <label for="nome">Nome</label>
+          <input
+            class="input"
+            type="text"
+            id="nomeid"
+            placeholder="Nome"
+            required="required"
+            name="nome"
+          />
+
+          <label for="fone">Telefone</label>
+          <input
+            class="input"
+            type="tel"
+            id="telid"
+            placeholder="(xx)xxxxx-xxxx"
+            name="fone"
+          />
+
+          <label for="email">Email</label>
+          <input
+            class="input"
+            type="email"
+            id="emailid"
+            placeholder="email@mail.com"
+            name="email"
+          />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            name="mensagem"
+            class="mensagem"
+            placeholder="Deixe sua mensagem"
+          ></textarea>
+
+          <input
+            type="submit"
+            class="enviar"
+            onclick="Enviar()"
+            value="Enviar"
+          />
+        </form>
+      </div>
+    </main>
+    <footer><p>Davi Narcizo - Tainá Narcizo</p></footer>
+  </body>
+</html>

@@ -74,58 +74,47 @@ header {
 }
 
 main {
+  height: 500px;
   background-color: #fff4ef;
-  height: 800px;
 }
 
-.barra-pesquisa {
+.container-principal {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#barra-pesquisa {
-  width: 600px;
-  padding: 10px;
-  margin: 20px 0 20px 0;
-  text-align: center;
+.imagem-form {
+  width: 500px;
+  height: 450px;
 }
 
-.container-principal {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+h1 {
+  font-family: "Averia Sans Libre", cursive;
 }
 
-.card {
+form {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
-  align-items: center;
-  width: 200px;
-  height: 300px;
-  border: 1px solid #f0d8e4;
-  border-radius: 5%;
-  margin: 20px;
+  margin-left: 20px;
+}
+
+label {
   font-family: "Overpass Mono", monospace;
 }
 
-.imagem-card {
-  width: 62%;
-  height: 50%;
+.input {
+  width: 300px;
+  padding: 10px;
 }
 
-.nome-produto {
-  margin: 5px;
-  font-weight: bold;
+.mensagem {
+  width: 500px;
+  height: 150px;
+  margin-bottom: 10px;
 }
 
-.valor-produto {
-  margin: 10px;
-  font-weight: bold;
-  color: #cb7ca2;
-}
-
-.botao-produto {
+.enviar {
   background-color: #cb7ca2;
   border: none;
   width: 150px;
@@ -134,7 +123,6 @@ main {
   font-family: "Overpass Mono", monospace;
   cursor: pointer;
   font-size: 19px;
-  margin: 5px;
 }
 
 footer {
