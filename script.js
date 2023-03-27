@@ -7,5 +7,5 @@ function servico() {
 }
 
 function contato() {
-  window.location.href = "../../contato/contato.html";
+  window.location.href = "./contato/contato.html";
 }
